@@ -41,6 +41,10 @@ Do you know that Windows has it's own packet manager?
 
 ## Now let's fire
 
+### Prepare post repo
+
+Create a repo with a markdown file for each post of your blog. Carefully assign the file name. If the article has images, add a folder with the same name as the file and put the images inside.
+
 ### Create workspace
 
 Choose a parent folder, and a new child folder name for your box then
@@ -50,11 +54,17 @@ Choose a parent folder, and a new child folder name for your box then
     npm install
     git clone https://github.com/theme-next/hexo-theme-next themes/next
 
+Remove the file
+
+    rm source/_post/hello-world.md
+
 Edit `_config.yml` as per your needs, set the theme name
 
 ### Put your content
 
-In the source\_posts folder create a markdown file for each post of your blog. Carefully assign the file name. If the article has images, add a folder with the same name as the file and put the images inside.
+Clone your posts repo.
+
+    git clone https://github.com/vincuo70/MyBlog source/_posts
 
 ### Generate and check the blog
 
