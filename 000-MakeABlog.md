@@ -54,11 +54,13 @@ Choose a parent folder, and a new child folder name for your box then
     npm install
     git clone https://github.com/theme-next/hexo-theme-next themes/next
 
-Remove the file
+Remove directory, will be replaced with article repo.
 
-    rm source/_post/hello-world.md
+    rmdir source/_post /S
 
-Edit `_config.yml` as per your needs, set the theme name
+Read <https://liolok.com/how-to-add-image-to-hexo-blog-post/> for adding images to your content.
+
+Edit `_config.yml` as per your needs, set the theme name, change public folder, and other settings.
 
 ### Put your content
 
