@@ -2,6 +2,8 @@
 
 ... or some hints about developing apps on .Net framework.
 
+You can read also on <https://vincuo70.github.io>
+
 ## Episode 000
 
 [How make a DevBlog to share infos](_post/000-MakeABlog.md)
